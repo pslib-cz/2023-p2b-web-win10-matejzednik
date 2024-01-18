@@ -1,0 +1,66 @@
+.start-panel {
+    display:grid;
+    grid-template-columns: 50px 170px auto;
+    gap:5px;
+}
+.start-panel__icons {
+    display:grid;
+    grid-template-rows:repeat(5, 50px) ;
+    grid-row-end:auto ;
+}
+.start-panel__grid {
+    display:grid;
+    grid-template-areas: 2;
+    grid-auto-rows: 2;
+
+}
+.apps--office {
+    display:grid;
+}
+.apps--web {
+    display:grid;
+}
+.apps--other {
+    display:grid;
+}
+.apps__grid {
+    display:grid;
+    grid-template-columns: auto;
+    grid-auto-rows: 2;
+}
+.app--g2x2 {
+    display: grid;
+    position:relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+.app--g2x1 {
+    display: grid;
+    position:relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+.app--g1x2 {
+    display: grid;
+    position:relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+.app--off-3 {
+
+}
+.app--off-4 {
+
+}
+.app--off-5 {
+
+}
+.app--in-3 {
+
+}
+.app--fun-2 {
+
+}
+.app--fun-3 {
+
+}
